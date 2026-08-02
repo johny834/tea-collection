@@ -4,19 +4,15 @@
       <stop offset="0%" stop-color="#151411"/>
       <stop offset="100%" stop-color="#0b0b09"/>
     </linearGradient>
-    <linearGradient id="leaf" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#d8e2c5"/>
-      <stop offset="55%" stop-color="#93ab7f"/>
-      <stop offset="100%" stop-color="#657753"/>
-    </linearGradient>
-    <linearGradient id="ring" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#f0d89b"/>
-      <stop offset="100%" stop-color="#b38a48"/>
+    <linearGradient id="cup" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#efd69a"/>
+      <stop offset="100%" stop-color="#bb9250"/>
     </linearGradient>
   </defs>
   <rect width="512" height="512" rx="120" fill="url(#bg)"/>
-  <circle cx="256" cy="256" r="148" fill="none" stroke="url(#ring)" stroke-width="34"/>
-  <path d="M343 177c-64 7-118 47-149 106-20 40-24 82-15 125 44 2 85-6 122-26 67-35 109-95 113-168 1-15-1-26-5-37-21-2-43-2-66 0z" fill="url(#leaf)"/>
-  <path d="M213 322c25-27 49-56 72-88 18-25 35-52 51-82" fill="none" stroke="#ecf3e1" stroke-linecap="round" stroke-width="18"/>
-  <circle cx="361" cy="166" r="18" fill="#f0d89b"/>
+  <path d="M139 180h176c17 0 31 14 31 31v73c0 79-56 142-119 142S108 363 108 284v-73c0-17 14-31 31-31z" fill="url(#cup)"/>
+  <path d="M341 194h16c44 0 81 36 81 80s-37 80-81 80h-31v-32h31c27 0 49-22 49-48s-22-48-49-48h-16v-32z" fill="url(#cup)"/>
+  <ellipse cx="227" cy="180" rx="119" ry="30" fill="#f8e8bf"/>
+  <ellipse cx="227" cy="188" rx="95" ry="18" fill="#7b9167"/>
+  <rect x="130" y="420" width="194" height="18" rx="9" fill="#d8bd7d" opacity="0.92"/>
 </svg>
